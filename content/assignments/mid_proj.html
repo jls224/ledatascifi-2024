@@ -66,6 +66,8 @@ const thebe_selector_output = ".output, .cell_output"
     <script async="async" src="../../_static/sphinx-thebe.js"></script>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="Assignment 9: A website to show off your work" href="website_setup.html" />
+    <link rel="prev" title="How to do peer review" href="howto_review.html" />
 
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="en" />
@@ -198,7 +200,7 @@ const thebe_selector_output = ".output, .cell_output"
   Assignments and participation
  </span>
 </p>
-<ul class="nav sidenav_l1">
+<ul class="current nav sidenav_l1">
  <li class="toctree-l1">
   <a class="reference internal" href="howto_do.html">
    How to start and turn in assignments
@@ -209,8 +211,8 @@ const thebe_selector_output = ".output, .cell_output"
    How to do your peer reviews
   </a>
  </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="mid_proj_placeholder.html">
+ <li class="toctree-l1 current active">
+  <a class="current reference internal" href="#">
    Midterm project AKA ASGN 5
   </a>
  </li>
@@ -986,6 +988,7 @@ const thebe_selector_output = ".output, .cell_output"
 <li><p>Read all instructions before starting.</p></li>
 <li><p>Start early. Work on the components of the project in parallel with related class discussions.</p></li>
 <li><p>RECHECK THESE INSTRUCTIONS BEFORE SUBMITTING</p></li>
+<li><p>Look at my class notes repo. I worked on part of this project there, especially step 3 and parts of step 6.</p></li>
 </ol>
 </div>
 <div class="admonition warning">
@@ -1065,7 +1068,7 @@ const thebe_selector_output = ".output, .cell_output"
 <div class="summary-up docutils">
 <svg version="1.1" width="24" height="24" class="octicon octicon-chevron-up" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M18.78 15.28a.75.75 0 000-1.06l-6.25-6.25a.75.75 0 00-1.06 0l-6.25 6.25a.75.75 0 101.06 1.06L12 9.56l5.72 5.72a.75.75 0 001.06 0z"></path></svg></div>
 </summary><div class="summary-content card-body docutils">
-<p class="card-text">The <code class="docutils literal notranslate"><span class="pre">download_text_files.ipynb</span></code> file will create a large data structure in a subfolder called <code class="docutils literal notranslate"><span class="pre">10k_files/</span></code> with all the downloaded 10-K files. Depending on the choices you/we make, there could be several gigs of data in this folder. We don’t want to save/push all these files to GitHub!</p>
+<p class="card-text">The <code class="docutils literal notranslate"><span class="pre">get_text_files_zipAFTER.ipynb</span></code> file will create a large data structure in a subfolder called <code class="docutils literal notranslate"><span class="pre">10k_files/</span></code> with all the downloaded 10-K files. Depending on the choices you/we make, there could be several gigs of data in this folder. We don’t want to save/push all these files to GitHub!</p>
 <div class="admonition warning">
 <p class="admonition-title">Warning</p>
 <p class="card-text">Add this directory (<code class="docutils literal notranslate"><span class="pre">10k_files/</span></code>) to your gitignore before you proceed!</p>
@@ -1073,7 +1076,7 @@ const thebe_selector_output = ".output, .cell_output"
 </div>
 </details><details class="sphinx-bs dropdown card mb-3">
 <summary class="summary-title card-header">
-3. Create <strong>download_text_files.ipynb</strong><div class="summary-down docutils">
+3. Create <strong>get_text_files_zipAFTER.ipynb</strong><div class="summary-down docutils">
 <svg version="1.1" width="24" height="24" class="octicon octicon-chevron-down" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M5.22 8.72a.75.75 0 000 1.06l6.25 6.25a.75.75 0 001.06 0l6.25-6.25a.75.75 0 00-1.06-1.06L12 14.44 6.28 8.72a.75.75 0 00-1.06 0z"></path></svg></div>
 <div class="summary-up docutils">
 <svg version="1.1" width="24" height="24" class="octicon octicon-chevron-up" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M18.78 15.28a.75.75 0 000-1.06l-6.25-6.25a.75.75 0 00-1.06 0l-6.25 6.25a.75.75 0 101.06 1.06L12 9.56l5.72 5.72a.75.75 0 001.06 0z"></path></svg></div>
@@ -1111,7 +1114,7 @@ const thebe_selector_output = ".output, .cell_output"
 <p class="card-text">It’s not polite to upload so much data to GitHub. It takes up space on the server, and your collaborators/peer reviewers will have to download them all when they clone your repo.</p>
 <p class="card-text">That’s why you edited the gitignore before doing all those downloads. If you did it correctly and check GitHub Desktop, you won’t see any of the text files!</p>
 <ol class="simple">
-<li><p class="card-text">Now that your <code class="docutils literal notranslate"><span class="pre">download_text_files.ipynb</span></code> is done running, push the repo. Even though your <em>computer</em> has a <code class="docutils literal notranslate"><span class="pre">/10k_files/*</span></code> folder on it with many files and some hard drive space used, the repo in your browser doesn’t show this at all! Good job!</p></li>
+<li><p class="card-text">Now that your <code class="docutils literal notranslate"><span class="pre">get_text_files_zipAFTER.ipynb</span></code> is done running, push the repo. Even though your <em>computer</em> has a <code class="docutils literal notranslate"><span class="pre">/10k_files/*</span></code> folder on it with many files and some hard drive space used, the repo in your browser doesn’t show this at all! Good job!</p></li>
 <li><p class="card-text"><strong>Create <code class="docutils literal notranslate"><span class="pre">screenshot.png</span></code>. The purpose of this is to upload proof of the files for your reviewers.</strong></p></li>
 </ol>
 <p class="card-text">Right-click your <code class="docutils literal notranslate"><span class="pre">10k_files</span></code> folder so it shows the number of files inside of it, and take a screenshot showing this. Save it as <code class="docutils literal notranslate"><span class="pre">screenshot.png</span></code> inside your repo.</p>
@@ -1124,6 +1127,7 @@ const thebe_selector_output = ".output, .cell_output"
 <svg version="1.1" width="24" height="24" class="octicon octicon-chevron-up" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M18.78 15.28a.75.75 0 000-1.06l-6.25-6.25a.75.75 0 00-1.06 0l-6.25 6.25a.75.75 0 101.06 1.06L12 9.56l5.72 5.72a.75.75 0 001.06 0z"></path></svg></div>
 </summary><div class="summary-content card-body docutils">
 <p class="card-text">This will be used in the next step.</p>
+<p class="card-text">Pro tip: Delete everything in this file below line 118.</p>
 </div>
 </details><details class="sphinx-bs dropdown card mb-3">
 <summary class="summary-title card-header">
@@ -1143,12 +1147,14 @@ const thebe_selector_output = ".output, .cell_output"
 </div>
 <p class="card-text"><strong>Variables to create:</strong></p>
 <ol class="simple">
-<li><p class="card-text">2 versions of a “buy and hold” around the 10-K date (“date t”)</p>
+<li><p class="card-text">3 versions of a “buy and hold” around the 10-K date (“date t”)</p>
 <ul class="simple">
-<li><p class="card-text">Version 1: Measure from the day t to day t+2 (inclusive) … <code class="docutils literal notranslate"><span class="pre">t</span></code> is business days, so ignore weekends and holidays!</p></li>
-<li><p class="card-text">Version 2: Measure from the day t+3 to day t+10 (inclusive)</p></li>
+<li><p class="card-text">Version 1: The return on the day of the filing. (This is easiest, and points will be reserved for students that figure out version 2 and 3.)</p></li>
+<li><p class="card-text">Version 2: Measure from the day t to day t+2 (inclusive) … <code class="docutils literal notranslate"><span class="pre">t</span></code> is business days, so ignore weekends and holidays!</p></li>
+<li><p class="card-text">Version 3: Measure from the day t+3 to day t+10 (inclusive)</p></li>
 <li><p class="card-text">Calculate the firms’s buy and hold return over each time span, a la Assignment 2</p></li>
 <li><p class="card-text">Stock returns for 2022 <a class="reference external" href="https://github.com/LeDataSciFi/data/tree/main/Stock%20Returns%20(CRSP)">can be found here.</a> Open this the same way we open <code class="docutils literal notranslate"><span class="pre">ccm</span></code>.</p></li>
+<li><p class="card-text">Merge the buy and hold stock returns to our dataset using ticker. (This is not the best option, but it’s simple.)</p></li>
 </ul>
 </li>
 <li><p class="card-text">10 sentiment variables</p>
@@ -1170,7 +1176,7 @@ const thebe_selector_output = ".output, .cell_output"
 </li>
 <li><p class="card-text">The last 6 of the 10 variables: “Contextual” sentiment. Basically: What is the (positive and negative) sentiment of the text in a 10-K around discussions of a particular topic.</p>
 <ul>
-<li><p class="card-text">Pick three topics. Each of those will get a positive and negative sentiment score.</p></li>
+<li><p class="card-text">Pick three topics. Each of those will get a positive and negative sentiment score - use the ML sentiment lists (not the LM lists).</p></li>
 <li><p class="card-text"><a class="reference internal" href="contextual_sentiment.html"><span class="doc std std-doc">A must visit: This page explains this step.</span></a></p></li>
 </ul>
 </li>
@@ -1189,8 +1195,8 @@ const thebe_selector_output = ".output, .cell_output"
 <li><p class="card-text">Bonus: Save the # of unique words (similar to total length)</p></li>
 </ul>
 </li>
-<li><p class="card-text">Calculate the two return measurements. Save those to the correct row and column in the dataframe</p></li>
-<li><p class="card-text">Downloads 2021 accounting data (<strong>2021 ccm_cleaned.dta</strong>) from the data repo (possibly useful in analysis) and adds them to the dataset</p></li>
+<li><p class="card-text">Calculate the return measurements. Save those to the correct row and column in the dataframe</p></li>
+<li><p class="card-text">Optional: Downloads 2021 accounting data (<strong>2021 ccm_cleaned.dta</strong>) from the data repo (possibly useful in analysis) and adds them to the dataset</p></li>
 <li><p class="card-text">Save the whole thing to <code class="docutils literal notranslate"><span class="pre">output/analysis_sample.csv</span></code></p></li>
 </ol>
 <div class="admonition note">
@@ -1236,6 +1242,15 @@ const thebe_selector_output = ".output, .cell_output"
 <li><p class="card-text">What’s the sample?</p></li>
 <li><p class="card-text">How are the return variables built and modified? (Mechanical description.) Aim for rigor and do not skip steps. You can include text and formulas here.</p></li>
 <li><p class="card-text">How are the sentiment variables are built and modified? (Mechanical description.) Aim for rigor and do not skip steps. You can include text and formulas here.</p></li>
+<li><p class="card-text">These datapoints about the sentiment variables:</p>
+<ul>
+<li><p class="card-text">How many words are in the LM positive dictionary?</p></li>
+<li><p class="card-text">How many words are in the LM negative dictionary?</p></li>
+<li><p class="card-text">How many words are in the ML positive dictionary?</p></li>
+<li><p class="card-text">How many words are in the ML negative dictionary?</p></li>
+<li><p class="card-text">A description of how you set up the near_regex function (partial = true or false, distance = what) and why you chose the values you did.</p></li>
+</ul>
+</li>
 <li><p class="card-text">Why did you choose the three topics you did for the “contextual sentiment” measures?</p></li>
 <li><p class="card-text">Show and discuss summary stats <em>of your final analysis sample</em></p></li>
 <li><p class="card-text">Do your  “contextual sentiment” measures pass some basic smell tests?</p>
@@ -1251,24 +1266,24 @@ const thebe_selector_output = ".output, .cell_output"
 </li>
 <li><p class="card-text">Results</p>
 <ul>
-<li><p class="card-text">Make a table with the correlation of each (10) sentiment measure against both (2) return measures. (So: an 10x2 table.)</p>
+<li><p class="card-text">Make a table with the correlation of each (10) sentiment measure against both (2) return measures. (So: a 10x3 table.)</p>
 <ul class="simple">
-<li><p class="card-text">The return measures are the firm’s returns around the 10-K release. We have 2 versions of this measure because we will try two different windows of time around the 10-K.</p></li>
+<li><p class="card-text">The return measures are the firm’s returns around the 10-K release. We have 3 versions of this to examine different windows of time around the 10-K to see the speed at which information is priced into the stock.</p></li>
 <li><p class="card-text">You will make 5 sentiment measures, and each has a positive and negative component. Thus: 10 sentiment measures.</p></li>
 <li><p class="card-text"><em>See step 6 for more details about the sentiment and return measures.</em></p></li>
 </ul>
 </li>
-<li><p class="card-text">Include a scatterplot (<strong>or similar</strong>) of each sentiment measure against both return measures.</p>
+<li><p class="card-text">Include a scatterplot (or binscatter, <strong>or similar</strong>) of each sentiment measure against both return measures.</p>
 <ul class="simple">
 <li><p class="card-text">Better: Combining this into a single figure</p></li>
 <li><p class="card-text">Better: Skip the correlation table and include the numerical correlations on the figure</p></li>
-<li><p class="card-text">Better: Regress (Don’t worry about printing these regressions out “pretty”, just try them if you want!)</p></li>
+<li><p class="card-text">Better: Regress (Don’t worry about printing these regressions out “pretty”, just try them if you want!). You can including accounting variables as controls here.</p></li>
 </ul>
 </li>
 <li><p class="card-text">Four discussion topics:</p>
 <ul class="simple">
 <li><p class="card-text">On (1), (2), and (3) below: Focus just on the first return variable (<em>which will examine returns around the 10-K publication</em>)</p></li>
-<li><p class="card-text">On (4) below: Focus on how the “ML sentiment” variables (positive and negative) are related to the two  different return measures.</p></li>
+<li><p class="card-text">On (4) below: Focus on how the “ML sentiment” variables (positive and negative) are related to the different return measures.</p></li>
 </ul>
 <ol class="simple">
 <li><p class="card-text">Compare / contrast the relationship between the returns variable and the two  “LM Sentiment” variables (positive and negative) with  the relationship between the returns variable and the two “ML Sentiment” variables (positive and negative). Focus on the patterns of the signs of the relationships and the magnitudes.</p></li>
@@ -1341,6 +1356,8 @@ const thebe_selector_output = ".output, .cell_output"
     
     <div class='prev-next-bottom'>
         
+    <a class='left-prev' id="prev-link" href="howto_review.html" title="previous page">How to do peer review</a>
+    <a class='right-next' id="next-link" href="website_setup.html" title="next page">Assignment 9: A website to show off your work</a>
 
     </div>
     <footer class="footer mt-5 mt-md-0">
