@@ -41,9 +41,9 @@
     <link rel="stylesheet" type="text/css" href="../../_static/copybutton.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/mystnb.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/sphinx-thebe.css" />
-    <link rel="stylesheet" type="text/css" href="../../_static/fin377_specialformatting.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/moviescript.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/frontpage.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/fin377_specialformatting.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
     
@@ -662,8 +662,13 @@ const thebe_selector_output = ".output, .cell_output"
     </a>
    </li>
    <li class="toctree-l2">
+    <a class="reference internal" href="../05/02h_summary_colFE.html">
+     6.7. Fixed effects, categorical variables, and prettier regression tables
+    </a>
+   </li>
+   <li class="toctree-l2">
     <a class="reference internal" href="../05/02g_summary.html">
-     6.7. Summary and Resources
+     6.8. Summary and Resources
     </a>
    </li>
   </ul>
@@ -1010,8 +1015,8 @@ const thebe_selector_output = ".output, .cell_output"
 <p>There are a few popular auto-formatters (black, yapf, and autopep8). In my <a class="reference external" href="../01/05_jupyterlab.html#my-jupyter-lab-set-up">JupyterLab set up</a>, I explain how I set up Black, the “uncompromising Python code formatter” which is very opinionated (“any color you’d like, as long as it is black”).</p>
 <p>Look at what Black does to this code:</p>
 <div class="tabbed-set docutils">
-<input checked="checked" id="9627d912-4b36-4c38-a1a5-1789e46e6b5d" name="95fcb4f7-3cf0-4e58-842a-ba242020e173" type="radio">
-</input><label class="tabbed-label" for="9627d912-4b36-4c38-a1a5-1789e46e6b5d">
+<input checked="checked" id="8bd16420-0979-4d3c-a212-9a1377469715" name="92c6c0ed-9050-4759-8395-b7b486a92d69" type="radio">
+</input><label class="tabbed-label" for="8bd16420-0979-4d3c-a212-9a1377469715">
 Ugly Code I wrote</label><div class="tabbed-content docutils">
 <p>This function is too long to even read:</p>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">very_important_function</span><span class="p">(</span><span class="n">template</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="o">*</span><span class="n">variables</span><span class="p">,</span> <span class="n">file</span><span class="p">:</span> <span class="n">os</span><span class="o">.</span><span class="n">PathLike</span><span class="p">,</span> <span class="n">engine</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">header</span><span class="p">:</span> <span class="nb">bool</span> <span class="o">=</span> <span class="kc">True</span><span class="p">,</span> <span class="n">debug</span><span class="p">:</span> <span class="nb">bool</span> <span class="o">=</span> <span class="kc">False</span><span class="p">):</span>
@@ -1021,8 +1026,8 @@ Ugly Code I wrote</label><div class="tabbed-content docutils">
 </pre></div>
 </div>
 </div>
-<input id="3dd8e2cf-cf80-4486-8167-03e2a23bf9c6" name="95fcb4f7-3cf0-4e58-842a-ba242020e173" type="radio">
-</input><label class="tabbed-label" for="3dd8e2cf-cf80-4486-8167-03e2a23bf9c6">
+<input id="e859e613-c0ca-4cfc-8d75-93ff9ba79edf" name="92c6c0ed-9050-4759-8395-b7b486a92d69" type="radio">
+</input><label class="tabbed-label" for="e859e613-c0ca-4cfc-8d75-93ff9ba79edf">
 Black fixed it</label><div class="tabbed-content docutils">
 <p>I hit CTRL+SHIFT+F and this was the result:</p>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">very_important_function</span><span class="p">(</span>
@@ -1062,8 +1067,8 @@ Black fixed it</label><div class="tabbed-content docutils">
 <p>A magic number is a literal number or parameter value embedded in your code. Having numbers that act as in-line inputs and parameters can easily lead to errors and make modifying code very tough.</p>
 <p>Here is an example that tries to download and stock price data.</p>
 <div class="tabbed-set docutils">
-<input checked="checked" id="75418a9e-cc62-4aea-85b0-5856151a3ba0" name="80276940-661c-4258-a63e-984ff97541c8" type="radio">
-</input><label class="tabbed-label" for="75418a9e-cc62-4aea-85b0-5856151a3ba0">
+<input checked="checked" id="b4edfd12-2df2-4ae1-95ba-185b3b175d45" name="93e51211-c356-45c2-9a06-1ec3937df4eb" type="radio">
+</input><label class="tabbed-label" for="b4edfd12-2df2-4ae1-95ba-185b3b175d45">
 Bad</label><div class="tabbed-content docutils">
 <p>If I want to change the stocks included, I’ll need to change the list of stocks twice.</p>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">pandas_datareader</span> <span class="k">as</span> <span class="nn">pdr</span>  
@@ -1084,8 +1089,8 @@ Bad</label><div class="tabbed-content docutils">
 </pre></div>
 </div>
 </div>
-<input id="f591dbc3-b267-4215-b889-459416abea91" name="80276940-661c-4258-a63e-984ff97541c8" type="radio">
-</input><label class="tabbed-label" for="f591dbc3-b267-4215-b889-459416abea91">
+<input id="71fd1782-b705-4e28-b50d-cf94693312a5" name="93e51211-c356-45c2-9a06-1ec3937df4eb" type="radio">
+</input><label class="tabbed-label" for="71fd1782-b705-4e28-b50d-cf94693312a5">
 Good</label><div class="tabbed-content docutils">
 <p>Now I only need to change the variable <code class="docutils literal notranslate"><span class="pre">stocks</span></code> to alter the entire code.</p>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">pandas_datareader</span> <span class="k">as</span> <span class="nn">pdr</span>  
